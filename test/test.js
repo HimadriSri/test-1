@@ -31,5 +31,22 @@
 
 // Memory
 // 1. All Primitive data types use STACK memory, all non-primitive use HEAP memory
+// 2. Stack memory works by creating copy of 1 variable and so any change will impact only copy and not original.
+// 3. Heap memory works by creating reference of original value and thus any change will reflect in original too.
+// Eg - 
+// Let var1 = 123
+// Let var2 = var1
+// Var2 = 345
+// Console.log(var1); ---returns 123
+// Console.log(var2); ---returns 345
+
+// Let employee1 = {
+// Name = "Himadri"
+// ID = 56789 }
+// Let employee1 = employee2;
+
+// Employee2.name = "Pragati"
+// Console.log(employee1); ---Pragati,098765
+// Console.log(employee2); ----Pragati,098765
 
 
