@@ -19,3 +19,8 @@
 // 	3. Console.log(typeof va) --this returns data type of that var
 // 	4. If you type - console.log(typeof null) ---it returns object----this means null is an object
 // Console.log(typeof undefined) --gives undefined
+
+// Conversions
+// 	1. Console.log(NULL>= 0) ---this will return true 
+// 	2. Console.log(NULL==00-- return false                          == check and > < works differently. < > converts null to number thus treats it as 0.
+// 	3. Strict check (===) ---it compares datatype as well as value.
