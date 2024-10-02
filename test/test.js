@@ -24,3 +24,12 @@
 // 	1. Console.log(NULL>= 0) ---this will return true 
 // 	2. Console.log(NULL==00-- return false                          == check and > < works differently. < > converts null to number thus treats it as 0.
 // 	3. Strict check (===) ---it compares datatype as well as value.
+// 4. Data types-
+// a. Primitive - String,number,bigint,symbol,null,undefined,boolean
+// b. Reference - Array,objects,functions
+// 5. JS is a dynamically typed language ad data types are determined during runtime, we don't need to define variables before using it.
+
+// Memory
+// 1. All Primitive data types use STACK memory, all non-primitive use HEAP memory
+
+
