@@ -48,5 +48,23 @@
 // Employee2.name = "Pragati"
 // Console.log(employee1); ---Pragati,098765
 // Console.log(employee2); ----Pragati,098765
+// Strings, numbers and Math
+// 	1. Strings has many functions, can check in inspect of browser and refer MDN documents
+// 	Const var1 = new string('Himadri')
+// 	Console.log(var1);
+// 	2. Similarly number too has few functions which can be referred through console in browser and mdn documents
+// 	Const var2 = Number(100)
+// 	Console.log(var2);
+// 	Const hundreds = 10000000
+// 	Console.log(hundreds.toLocaleString('en-IN');
+// 	3. Math have many operations which are helpful in doing calculations.
+// 	a. Function random gives random value between 0-1
+// 	b. Eg- const min= 10;
+// 	       const max = 20;
+// 	Console.log(Math.floor(Math.random() * (max-min + 1)) +min)
+// 	*Random will generate any number BT 0-1, multiplied by 11, then floor operation will take lower value, to avoid value rounding to 0 (Say random value is 0.000087) then floor will make it 0---we will add with min
+
+
+
 
 
