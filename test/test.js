@@ -64,6 +64,11 @@
 // 	Console.log(Math.floor(Math.random() * (max-min + 1)) +min)
 // 	*Random will generate any number BT 0-1, multiplied by 11, then floor operation will take lower value, to avoid value rounding to 0 (Say random value is 0.000087) then floor will make it 0---we will add with min
 
+// const dt = new Date()
+// //console.log(dt.toString());
+// console.log(typeof dt);
+
+
 
 
 
